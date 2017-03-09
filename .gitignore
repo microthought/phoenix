@@ -6,3 +6,6 @@ dist/bundle.js
 
 # OS X
 .DS_Store
+
+# VS Code
+.vscode/
