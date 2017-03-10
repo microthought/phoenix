@@ -1,11 +1,10 @@
 const express = require('express');
 const app = express();
+const router = require('./routes');
 
 
 
-app.get('/youawake', function(req, res){
-  res.send("Hello there!");
-})
+app.use('/', router);
 
 
 app.listen(3000, function(){
