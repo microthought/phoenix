@@ -2,7 +2,7 @@
 node_modules/
 
 # Webpack Bundle
-dist/bundle.js
+bundle.js
 
 # OS X
 .DS_Store
