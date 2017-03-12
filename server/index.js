@@ -8,7 +8,7 @@ const router = require('./routes');
 
 app.use( express.static( path.join(__dirname, '../public') ) );
 
-//app.use('/', router);
+app.use('/', router);
 
 
 app.listen(3000, function(){
