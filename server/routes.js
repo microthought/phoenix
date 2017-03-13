@@ -5,7 +5,10 @@ router.get('/', function(req, res){
 });
 
 router.get('/target', function(req, res){
- res.send("We've got missiles, you're screwed!");
+  setTimeout(function(){
+    res.send("We've got missiles, you're screwed!");
+  },1000);
+ 
 });
 
 module.exports = router;

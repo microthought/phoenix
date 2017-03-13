@@ -9,3 +9,6 @@ bundle.js
 
 # VS Code
 .vscode/
+
+
+npm-debug.log
