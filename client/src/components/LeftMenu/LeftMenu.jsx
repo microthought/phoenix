@@ -7,11 +7,12 @@ class LeftMenu extends React.Component {
 
   render() {
     return(
-    <div>
-      
+    <div className="LeftMenu">
+      LeftMenu
     </div>
     )
   }
 
-  
 }
+
+export default LeftMenu;

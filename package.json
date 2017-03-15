@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "sass --watch client/src/styles/main.scss:public/main.css"
+    "start": "sass --watch client/src/components/main.scss:public/main.css"
   },
   "author": "Michael Thelen",
   "license": "ISC",

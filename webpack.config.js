@@ -1,3 +1,4 @@
+
 const path = require('path');
 
 const config = {
@@ -16,7 +17,5 @@ const config = {
     ],
   },
 };
-
-
 
 module.exports = config;
