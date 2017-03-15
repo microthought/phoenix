@@ -9,10 +9,15 @@
     background-color: darkred;
     color: white; }
 #app .LeftMenu {
+  display: flex;
+  justify-content: center;
   width: 40%;
-  background-color: lightseagreen; }
+  background-color: lightseagreen;
+  color: blue; }
 #app .ActiveChat {
   width: 60%;
-  background-color: lightblue; }
+  background-color: lightblue;
+  display: flex;
+  justify-content: center; }
 
 /*# sourceMappingURL=main.css.map */
