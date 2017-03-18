@@ -7,7 +7,7 @@ class LeftMenu extends React.Component {
 
   render() {
     return(
-    <div className="LeftMenu">
+    <div className="LeftMenu"> DDDD
       LeftMenu
     </div>
     )

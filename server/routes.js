@@ -6,7 +6,7 @@ router.get('/', function(req, res){
 
 router.get('/target', function(req, res){
   setTimeout(function(){
-    res.send("We've got missiles, you're screwed!");
+    res.send("We've got missiles, you're screwed!!");
   },1000);
  
 });

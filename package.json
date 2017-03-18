@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npm run sassy & npm run webpack & npm run server",
+    "start": "npm run sassy | npm run webpack | npm run server",
     "sassy": "sass --watch client/src/main.scss:public/main.css",
     "webpack": "webpack --watch",
     "server": "nodemon server/index.js"
