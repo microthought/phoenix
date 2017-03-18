@@ -1,8 +1,10 @@
-# Dependency Directors
+# Node
 node_modules/
+npm-debug.log
 
-# Webpack Bundle
+# Built Process
 bundle.js
+main.css
 
 # OS X
 .DS_Store
@@ -11,4 +13,3 @@ bundle.js
 .vscode/
 
 
-npm-debug.log
