@@ -1,8 +1,12 @@
 
 
 .ActiveChat {
-  width: 60%;
-  background-color: white;
   display: flex;
+  width: 60%;
+  height: 90%;
+  background-color: lightgrey;
   justify-content: center;
+
+
+  border: 1px solid black;
 }

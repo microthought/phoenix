@@ -1,8 +1,17 @@
 
 .LeftMenu {
+  height: 500px;
   display: flex;
   justify-content: center;
   width: 40%;
   background-color: lightcoral;
   color: blue;
+
+
+
+  button {
+    height: contain;
+  }
+
+  border: 1px solid black;
 }

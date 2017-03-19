@@ -2,9 +2,10 @@
 node_modules/
 npm-debug.log
 
-# Built Process
+# Build Process
 bundle.js
 main.css
+.sass-cache/
 
 # OS X
 .DS_Store

@@ -6,7 +6,7 @@ import App from './components/App/App.jsx';
 
 
 
-render(<App/>, document.getElementById("app"));
+render(<App/>, document.getElementById("React-Root"));
 
 
 

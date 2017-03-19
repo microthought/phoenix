@@ -1,8 +1,9 @@
-import React, { Component } from "react";
+import React, { Component } from 'react';
 import axios from 'axios';
 
 import LeftMenu from '../LeftMenu/LeftMenu.jsx';
 import ActiveChat from '../ActiveChat/ActiveChat.jsx';
+import { Button } from 'semantic-ui-react';
 
 
 
@@ -15,14 +16,13 @@ class App extends React.Component {
 
   render() {
     return(
-      <div className="app"> Good day mate!
-        <LeftMenu />
+      <div className="app">
+        <LeftMenu fetchDerp={()=>this.fetchDerp()}/>
         <ActiveChat />
-        <button
-          onClick={this.fetchDerp}
-          className="primary">
+        <Button
+          onClick={this.fetchDerp}>
           Fire!
-        </button>
+        </Button>
       </div>
     );
   }

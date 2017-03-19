@@ -1,13 +1,17 @@
 
 
-#app {
-  @import 'styles/utils/all';
-  @import 'styles/base/all';
+@import 'styles/base/all';
+@import 'styles/utils/all';
 
 
 
+#React-Root {
+  
   @import 'components/App/App';
   @import 'components/LeftMenu/LeftMenu';
   @import 'components/ActiveChat/ActiveChat';
+  @import 'components/ChatInput/ChatInput';
+  @import 'components/Message/Message';
+  @import 'components/Conversation/Conversation';
 
 }

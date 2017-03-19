@@ -9,6 +9,13 @@ class LeftMenu extends React.Component {
     return(
     <div className="LeftMenu"> DDDD
       LeftMenu
+
+      <div>
+        <button
+            onClick={this.props.fetchDerp}>
+            Fire!
+          </button>
+      </div>
     </div>
     )
   }
