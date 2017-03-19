@@ -3,7 +3,6 @@ import axios from 'axios';
 
 import LeftMenu from '../LeftMenu/LeftMenu.jsx';
 import ActiveChat from '../ActiveChat/ActiveChat.jsx';
-import { Button } from 'semantic-ui-react';
 
 
 
@@ -19,10 +18,6 @@ class App extends React.Component {
       <div className="app">
         <LeftMenu fetchDerp={()=>this.fetchDerp()}/>
         <ActiveChat />
-        <Button
-          onClick={this.fetchDerp}>
-          Fire!
-        </Button>
       </div>
     );
   }

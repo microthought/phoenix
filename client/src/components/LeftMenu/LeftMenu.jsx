@@ -1,4 +1,5 @@
 import React from 'react';
+import { Button } from 'semantic-ui-react';
 
 class LeftMenu extends React.Component {
   constructor(props){
@@ -10,12 +11,14 @@ class LeftMenu extends React.Component {
     <div className="LeftMenu"> DDDD
       LeftMenu
 
-      <div>
-        <button
-            onClick={this.props.fetchDerp}>
-            Fire!
-          </button>
-      </div>
+      <Button
+          onClick={this.props.fetchDerp}
+          negative
+          circular
+          compact>
+          Fire!
+      </Button>
+
     </div>
     )
   }

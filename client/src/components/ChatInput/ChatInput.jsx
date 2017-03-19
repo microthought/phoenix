@@ -1,4 +1,5 @@
 import React from 'react';
+import { Input, Icon} from 'semantic-ui-react';
 
 class ChatInput extends React.Component {
   constructor(props){
@@ -9,8 +10,10 @@ class ChatInput extends React.Component {
     return (
       <div className="chat-input">
         <button>Send</button>
-        <input
-        type="text"
+        <Icon 
+        name="microphone"
+        size="big" />
+        <Input
         placeholder="type message here"/>
       </div>
     )
