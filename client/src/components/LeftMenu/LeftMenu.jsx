@@ -1,5 +1,9 @@
 import React from 'react';
 import { Button } from 'semantic-ui-react';
+import RecentConversations from '../RecentConversations/RecentConversations.jsx';
+
+
+
 
 class LeftMenu extends React.Component {
   constructor(props){
@@ -10,6 +14,9 @@ class LeftMenu extends React.Component {
     return(
     <div className="LeftMenu"> DDDD
       LeftMenu
+
+      <RecentConversations />
+
 
       <Button
           onClick={this.props.fetchDerp}

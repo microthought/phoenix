@@ -2,8 +2,8 @@
 .LeftMenu {
   height: 100%;
   display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-end;
   width: 40%;
   background-color: lightsteelblue;
   color: blue;
