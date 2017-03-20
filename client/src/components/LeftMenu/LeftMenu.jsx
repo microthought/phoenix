@@ -12,7 +12,7 @@ class LeftMenu extends React.Component {
 
   render() {
     return(
-    <div className="LeftMenu"> DDDD
+    <div className="LeftMenu">
       LeftMenu
 
       <RecentConversations />
