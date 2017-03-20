@@ -1,4 +1,5 @@
-var router = require('express').Router();
+const router = require('express').Router();
+const conversation = require('./controllers/conversation.js');
 
 router.get('/', function(req, res){
   res.send("Hello from routes.js!");
@@ -10,5 +11,8 @@ router.get('/target', function(req, res){
   },1000);
  
 });
+
+router.get('/conversation/:conversation_id', conversation.get);
+
 
 module.exports = router;

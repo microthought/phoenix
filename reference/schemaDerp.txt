@@ -1,0 +1,14 @@
+
+#Conversations
+  id
+
+
+#Messages
+  id
+  conversation_id
+  sender_id
+
+#Participants
+  id
+  conversation_id
+  user_id
