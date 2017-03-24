@@ -18,9 +18,6 @@ const ChatHistory = () => {
 
   return (
     <div className="chat-history">
-      <Button
-      onClick={()=>addDerp()}
-      content="derrp" />
       {renderedMessages()}
     </div>
   )

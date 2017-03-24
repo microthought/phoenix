@@ -2,7 +2,6 @@
 #Conversations
   id
 
-
 #Messages
   id
   conversation_id
@@ -12,3 +11,13 @@
   id
   conversation_id
   user_id
+
+#Users
+ id
+ displayName
+ passwordHash
+ profileImage
+
+
+
+'phoenix' @ http://ondras.zarovi.cz/sql/demo/
