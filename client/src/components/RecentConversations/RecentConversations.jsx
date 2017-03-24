@@ -7,7 +7,7 @@ const RecentConversations = props => {
 
 
   return (
-    <List className="recent-conversations">
+    <List  className="recent-conversations">
       <Conversation 
       avatar="http://react.semantic-ui.com/assets/images/avatar/small/veronika.jpg"
       displayName="The Booooooooooooooss!"

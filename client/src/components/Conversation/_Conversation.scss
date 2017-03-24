@@ -1,9 +1,12 @@
 
-
 .conversation {
-  color: black;
+  color: blue;
 
-
+  //contains name and message
+  .content{
+    width:90%;
+    
+  }
 
   border: 1px solid black;
 }
