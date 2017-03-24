@@ -8,155 +8,112 @@ const RecentConversations = props => {
 
   return (
     <List className="recent-conversations">
-      <List.Item>
-        <Image avatar src="http://react.semantic-ui.com/assets/images/avatar/small/veronika.jpg" />
-        <List.Content>
-          <List.Header as="a" content="Veronika!" />
-          <List.Description content="More good things!" />
-        </List.Content>
-      </List.Item>
-      <List.Item>
-        <Image avatar src="http://react.semantic-ui.com/assets/images/avatar/small/jenny.jpg" />
-        <List.Content>
-          <List.Header as="a" content="JenJen!" />
-          <List.Description content="Let's share all kinds of dirty secrets about the others!" />
-        </List.Content>
-      </List.Item>
-      <List.Item>
-        <Image avatar src="http://react.semantic-ui.com/assets/images/avatar/small/veronika.jpg" />
-        <List.Content>
-          <List.Header as="a" content="Veronika!" />
-          <List.Description content="More good things!" />
-        </List.Content>
-      </List.Item>
-      <List.Item>
-        <Image avatar src="http://react.semantic-ui.com/assets/images/avatar/small/jenny.jpg" />
-        <List.Content>
-          <List.Header as="a" content="JenJen!" />
-          <List.Description content="Let's share all kinds of dirty secrets about the others!" />
-        </List.Content>
-      </List.Item>
-      <List.Item>
-        <Image avatar src="http://react.semantic-ui.com/assets/images/avatar/small/veronika.jpg" />
-        <List.Content>
-          <List.Header as="a" content="Veronika!" />
-          <List.Description content="More good things!" />
-        </List.Content>
-      </List.Item>
-      <List.Item>
-        <Image avatar src="http://react.semantic-ui.com/assets/images/avatar/small/jenny.jpg" />
-        <List.Content>
-          <List.Header as="a" content="JenJen!" />
-          <List.Description content="Let's share all kinds of dirty secrets about the others!" />
-        </List.Content>
-      </List.Item>
-      <List.Item>
-        <Image avatar src="http://react.semantic-ui.com/assets/images/avatar/small/veronika.jpg" />
-        <List.Content>
-          <List.Header as="a" content="Veronika!" />
-          <List.Description content="More good things!" />
-        </List.Content>
-      </List.Item>
-      <List.Item>
-        <Image avatar src="http://react.semantic-ui.com/assets/images/avatar/small/jenny.jpg" />
-        <List.Content>
-          <List.Header as="a" content="JenJen!" />
-          <List.Description content="Let's share all kinds of dirty secrets about the others!" />
-        </List.Content>
-      </List.Item>
-      <List.Item>
-        <Image avatar src="http://react.semantic-ui.com/assets/images/avatar/small/veronika.jpg" />
-        <List.Content>
-          <List.Header as="a" content="Veronika!" />
-          <List.Description content="More good things!" />
-        </List.Content>
-      </List.Item>
-      <List.Item>
-        <Image avatar src="http://react.semantic-ui.com/assets/images/avatar/small/jenny.jpg" />
-        <List.Content>
-          <List.Header as="a" content="JenJen!" />
-          <List.Description content="Let's share all kinds of dirty secrets about the others!" />
-        </List.Content>
-      </List.Item>
-      <List.Item>
-        <Image avatar src="http://react.semantic-ui.com/assets/images/avatar/small/veronika.jpg" />
-        <List.Content>
-          <List.Header as="a" content="Veronika!" />
-          <List.Description content="More good things!" />
-        </List.Content>
-      </List.Item>
-      <List.Item>
-        <Image avatar src="http://react.semantic-ui.com/assets/images/avatar/small/jenny.jpg" />
-        <List.Content>
-          <List.Header as="a" content="JenJen!" />
-          <List.Description content="Let's share all kinds of dirty secrets about the others!" />
-        </List.Content>
-      </List.Item>
-      <List.Item>
-        <Image avatar src="http://react.semantic-ui.com/assets/images/avatar/small/veronika.jpg" />
-        <List.Content>
-          <List.Header as="a" content="Veronika!" />
-          <List.Description content="More good things!" />
-        </List.Content>
-      </List.Item>
-      <List.Item>
-        <Image avatar src="http://react.semantic-ui.com/assets/images/avatar/small/jenny.jpg" />
-        <List.Content>
-          <List.Header as="a" content="JenJen!" />
-          <List.Description content="Let's share all kinds of dirty secrets about the others!" />
-        </List.Content>
-      </List.Item>
-      <List.Item>
-        <Image avatar src="http://react.semantic-ui.com/assets/images/avatar/small/veronika.jpg" />
-        <List.Content>
-          <List.Header as="a" content="Veronika!" />
-          <List.Description content="More good things!" />
-        </List.Content>
-      </List.Item>
-      <List.Item>
-        <Image avatar src="http://react.semantic-ui.com/assets/images/avatar/small/jenny.jpg" />
-        <List.Content>
-          <List.Header as="a" content="JenJen!" />
-          <List.Description content="Let's share all kinds of dirty secrets about the others!" />
-        </List.Content>
-      </List.Item>
+      <Conversation 
+      avatar="http://react.semantic-ui.com/assets/images/avatar/small/veronika.jpg"
+      displayName="The Booooooooooooooss!"
+      lastMessageText="Yahoo I'm a new componnetn dooood! Yippy Scippy awesome yay! IS this going to wrap or what?" />
 
-      <List.Item>
-        <Image avatar src="http://react.semantic-ui.com/assets/images/avatar/small/jenny.jpg" />
-        <List.Content>
-          <List.Header as="a" content="JenJen!" />
-          <List.Description content="Let's share all kinds of dirty secrets about the others!" />
-        </List.Content>
-      </List.Item>
-      <List.Item>
-        <Image avatar src="http://react.semantic-ui.com/assets/images/avatar/small/veronika.jpg" />
-        <List.Content>
-          <List.Header as="a" content="Veronika!" />
-          <List.Description content="More good things!" />
-        </List.Content>
-      </List.Item>
-      <List.Item>
-        <Image avatar src="http://react.semantic-ui.com/assets/images/avatar/small/jenny.jpg" />
-        <List.Content>
-          <List.Header as="a" content="JenJen!" />
-          <List.Description content="Let's share all kinds of dirty secrets about the others!" />
-        </List.Content>
-      </List.Item>
-      <List.Item>
-        <Image avatar src="http://react.semantic-ui.com/assets/images/avatar/small/veronika.jpg" />
-        <List.Content>
-          <List.Header as="a" content="Veronika!" />
-          <List.Description content="More good things!" />
-        </List.Content>
-      </List.Item>
-      <List.Item>
-        <Image avatar src="http://react.semantic-ui.com/assets/images/avatar/small/jenny.jpg" />
-        <List.Content>
-          <List.Header as="a" content="JenJen!" />
-          <List.Description content="Let's share all kinds of dirty secrets about the others!" />
-        </List.Content>
-      </List.Item>
-      
+
+      <Conversation 
+      avatar="http://react.semantic-ui.com/assets/images/avatar/small/jenny.jpg"
+      displayName="JenJen!"
+      lastMessageText="Let's share all kinds of dirty secrets about the others!"
+      />
+      <Conversation 
+      avatar="http://react.semantic-ui.com/assets/images/avatar/small/veronika.jpg"
+      displayName="Veronika!"
+      lastMessageText="More good things!" />
+
+      <Conversation 
+      avatar="http://react.semantic-ui.com/assets/images/avatar/small/jenny.jpg"
+      displayName="JenJen!"
+      lastMessageText="Let's share all kinds of dirty secrets about the others!"
+      />
+      <Conversation 
+      avatar="http://react.semantic-ui.com/assets/images/avatar/small/veronika.jpg"
+      displayName="Veronika!"
+      lastMessageText="More good things!" />
+
+      <Conversation 
+      avatar="http://react.semantic-ui.com/assets/images/avatar/small/jenny.jpg"
+      displayName="JenJen!"
+      lastMessageText="Let's share all kinds of dirty secrets about the others!"
+      />
+      <Conversation 
+      avatar="http://react.semantic-ui.com/assets/images/avatar/small/veronika.jpg"
+      displayName="Veronika!"
+      lastMessageText="More good things!" />
+
+      <Conversation 
+      avatar="http://react.semantic-ui.com/assets/images/avatar/small/jenny.jpg"
+      displayName="JenJen!"
+      lastMessageText="Let's share all kinds of dirty secrets about the others!"
+      />
+      <Conversation 
+      avatar="http://react.semantic-ui.com/assets/images/avatar/small/veronika.jpg"
+      displayName="Veronika!"
+      lastMessageText="More good things!" />
+
+      <Conversation 
+      avatar="http://react.semantic-ui.com/assets/images/avatar/small/jenny.jpg"
+      displayName="JenJen!"
+      lastMessageText="Let's share all kinds of dirty secrets about the others!"
+      />
+      <Conversation 
+      avatar="http://react.semantic-ui.com/assets/images/avatar/small/veronika.jpg"
+      displayName="Veronika!"
+      lastMessageText="More good things!" />
+
+      <Conversation 
+      avatar="http://react.semantic-ui.com/assets/images/avatar/small/jenny.jpg"
+      displayName="JenJen!"
+      lastMessageText="Let's share all kinds of dirty secrets about the others!"
+      />
+      <Conversation 
+      avatar="http://react.semantic-ui.com/assets/images/avatar/small/veronika.jpg"
+      displayName="Veronika!"
+      lastMessageText="More good things!" />
+
+      <Conversation 
+      avatar="http://react.semantic-ui.com/assets/images/avatar/small/jenny.jpg"
+      displayName="JenJen!"
+      lastMessageText="Let's share all kinds of dirty secrets about the others!"
+      />
+      <Conversation 
+      avatar="http://react.semantic-ui.com/assets/images/avatar/small/veronika.jpg"
+      displayName="Veronika!"
+      lastMessageText="More good things!" />
+
+      <Conversation 
+      avatar="http://react.semantic-ui.com/assets/images/avatar/small/jenny.jpg"
+      displayName="JenJen!"
+      lastMessageText="Let's share all kinds of dirty secrets about the others!"
+      />
+      <Conversation 
+      avatar="http://react.semantic-ui.com/assets/images/avatar/small/veronika.jpg"
+      displayName="Veronika!"
+      lastMessageText="More good things!" />
+
+      <Conversation 
+      avatar="http://react.semantic-ui.com/assets/images/avatar/small/jenny.jpg"
+      displayName="JenJen!"
+      lastMessageText="Let's share all kinds of dirty secrets about the others!"
+      />
+      <Conversation 
+      avatar="http://react.semantic-ui.com/assets/images/avatar/small/veronika.jpg"
+      displayName="Veronika!"
+      lastMessageText="More good things!" />
+
+      <Conversation 
+      avatar="http://react.semantic-ui.com/assets/images/avatar/small/jenny.jpg"
+      displayName="JenJen!"
+      lastMessageText="Let's share all kinds of dirty secrets about the others!"
+      />
+      <Conversation 
+      avatar="http://react.semantic-ui.com/assets/images/avatar/small/veronika.jpg"
+      displayName="Veronika!"
+      lastMessageText="More good things!" />
+
     </List>
   )
 }
