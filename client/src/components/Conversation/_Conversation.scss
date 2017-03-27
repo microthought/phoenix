@@ -1,12 +1,27 @@
 
 .conversation {
-  color: blue;
+  background-color:rgb(255, 255, 255);
+  padding: 10px;
 
-  //contains name and message
+
+
   .content{
-    width:90%;
+    width: 80%;
     
   }
 
+  .header {
+    color:black;
+    margin: 5px 0;
+  }
+
   border: 1px solid black;
+
+
+
+  &:hover {
+    background-color:rgb(238,238,238);
+  }
+
 }
+

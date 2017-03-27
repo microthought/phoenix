@@ -3,9 +3,11 @@ import {List, Image} from 'semantic-ui-react';
 
 const Conversation  = ({avatar, displayName, lastMessageText}) => (
   <List.Item className="conversation">
-    <Image avatar src={avatar} />
+    <Image
+      shape='circular'
+      src={avatar} />
     <List.Content>
-      <List.Header className="truncate" as="a" content={displayName} />
+      <List.Header className="truncate" content={displayName} />
       <List.Description className="truncate" content={lastMessageText} />
     </List.Content>
   </List.Item>
