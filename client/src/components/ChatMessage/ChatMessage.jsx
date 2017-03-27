@@ -5,7 +5,9 @@ const ChatMessage = (props) => {
   console.log("ChatMessage Props: ",props);
   
   return (
-  <Message className="chat-message">
+  <Message
+  compact
+  className="chat-message">
     <p>{props.message}</p>
   </ Message>
 )}
