@@ -1,11 +1,16 @@
 
 
 .chat-history{
+  overflow-y: scroll;
+
   height: calc(100% - 60px);
   //width: auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
+
+
+  // display: flex;
+  // flex-direction: column ;
+  // justify-content: flex-end;
+
 
 
 

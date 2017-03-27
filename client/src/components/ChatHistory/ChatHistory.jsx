@@ -16,8 +16,17 @@ const ChatHistory = () => {
 
   var renderedMessages = messages
   .map((message,i) => <ChatMessage
+    className="chat-message"
     message={message}
     key={message + i} />);
+
+  /*var dummyMessages = messages
+  .map((message,i) => <div 
+  className="chat-message"
+  key={message + i}>
+    {message}
+    </div>);*/
+
 
 
   return (
