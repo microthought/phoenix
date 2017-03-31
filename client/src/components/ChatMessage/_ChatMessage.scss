@@ -2,14 +2,34 @@
 
 .chat-message {
   color: black;
-  //display: flex;
+  clear: both;
 
-  //min-height: 50px;
-  // width: fit-content;
+  
+
  float: right;
- clear: both;
+ 
+
+ .time{
+   position: absolute;
+   bottom: 3px;
+   right:7px;
+   color: grey;
+   font-size: 0.8em;
+ }
 
 
 
   border: 1px solid black;
+}
+
+
+///TESTSTSTSTS
+
+.user {
+  float: right;
+  background-color: rgb(200, 248, 198);
+}
+
+.partner {
+  float: left;
 }

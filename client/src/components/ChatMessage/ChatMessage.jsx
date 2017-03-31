@@ -1,14 +1,22 @@
 import React from 'react';
 import { Message } from 'semantic-ui-react';
+import classNames from 'classnames';
 
 const ChatMessage = (props) => {
   console.log("ChatMessage Props: ",props);
+
+  var classes = classNames({
+    'chat-message': true,
+    partner: !props.isUser,
+    user: props.isUser
+  });
   
   return (
   <Message
   compact
-  className="chat-message">
+  className={classes}>
     <p>{props.message}</p>
+    <p className="time">9:45 PM</p>
   </ Message>
 )}
 

@@ -5,10 +5,11 @@ import {Button} from 'semantic-ui-react';
 
 var genie = "Thanks for releasing me from my lamp";
 var cat = "Meow meow feed me!";
+var derp ="I don't think this is a good idea. We should skip in the rain."
 var messages = [];
 
 for(var i = 0; i < 10; i++){
-  messages.push(genie, cat);
+  messages.push(genie, cat, derp);
 }
 console.log(messages);
 
@@ -18,15 +19,8 @@ const ChatHistory = () => {
   .map((message,i) => <ChatMessage
     className="chat-message"
     message={message}
+    isUser={!!(i % 2)}
     key={message + i} />);
-
-  /*var dummyMessages = messages
-  .map((message,i) => <div 
-  className="chat-message"
-  key={message + i}>
-    {message}
-    </div>);*/
-
 
 
   return (
