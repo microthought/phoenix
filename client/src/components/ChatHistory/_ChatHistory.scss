@@ -2,8 +2,9 @@
 
 .chat-history{
   overflow-y: scroll;
+  background-image: url('http://img13.deviantart.net/31cf/i/2015/028/8/6/super_hero_whatsapp_background_by_x_ama-d8fr7iz.jpg');
 
   height: calc(100% - 60px);
 
-  border: 1px solid grey;
+  border-top: 1px solid grey;
 }
