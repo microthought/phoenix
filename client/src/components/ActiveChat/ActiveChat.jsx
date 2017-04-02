@@ -15,7 +15,8 @@ class ActiveChat extends React.Component {
     return(
     <div className="ActiveChat">
       ActiveChat
-      <ChatHistory />
+      <ChatHistory 
+        messages={this.props.messages}/>
       <ChatInput />
     </div>
     )

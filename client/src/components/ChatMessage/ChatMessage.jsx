@@ -3,7 +3,6 @@ import { Message } from 'semantic-ui-react';
 import classNames from 'classnames';
 
 const ChatMessage = (props) => {
-  console.log("ChatMessage Props: ",props);
 
   var classes = classNames({
     'chat-message': true,

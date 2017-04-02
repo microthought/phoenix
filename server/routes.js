@@ -12,7 +12,9 @@ router.get('/target', function(req, res){
  
 });
 
-router.get('/conversation/:conversation_id', conversation.get);
+//router.get('/conversation/:conversation_id', conversation.get);
+
+router.get('/conversation/dummy', conversation.getdummy);
 
 
 module.exports = router;
