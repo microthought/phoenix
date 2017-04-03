@@ -3,8 +3,8 @@
   height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  width: 40%;
+  //justify-content: space-between;
+  width: 35%;
   background-color: lightsteelblue;
   color: blue;
 
@@ -12,6 +12,10 @@
 
   .ui.button {
     display: flex;
+    width: 80px;
+    justify-content: center;
+    align-self: center;
+
   }
 
   //border: 1px solid black;

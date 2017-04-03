@@ -6,14 +6,17 @@
 
 
 #React-Root {
-  
-  @import 'components/ActiveChat/ActiveChat';
   @import 'components/App/App';
+
+  @import 'components/ActiveChat/ActiveChat';
+  @import 'components/ActiveChatHeader/ActiveChatHeader';
   @import 'components/ChatHistory/ChatHistory';
   @import 'components/ChatInput/ChatInput';
   @import 'components/ChatMessage/ChatMessage';
   @import 'components/Conversation/Conversation';
+  @import 'components/ConvoSearch/ConvoSearch';
   @import 'components/LeftMenu/LeftMenu';
+  @import 'components/MainMenu/MainMenu';
   @import 'components/RecentConversations/RecentConversations';
 
 }

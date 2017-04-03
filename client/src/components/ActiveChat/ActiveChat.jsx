@@ -1,5 +1,6 @@
 import React from 'react';
 
+import ActiveChatHeader from "../ActiveChatHeader/ActiveChatHeader.jsx";
 import ChatInput from '../ChatInput/ChatInput.jsx';
 import ChatHistory from '../ChatHistory/ChatHistory.jsx';
 import ChatMessage from '../ChatMessage/ChatMessage.jsx';
@@ -14,7 +15,7 @@ class ActiveChat extends React.Component {
   render() {
     return(
     <div className="ActiveChat">
-      ActiveChat
+      <ActiveChatHeader />
       <ChatHistory 
         messages={this.props.messages}/>
       <ChatInput />

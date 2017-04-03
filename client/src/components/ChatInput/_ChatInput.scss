@@ -1,6 +1,7 @@
 
 
 .chat-input {
+  height: 70px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -14,6 +15,6 @@
     width: 80%;
   }
 
-
+  background-color: rgb(245, 241, 238);
   border: 1px solid black;
 }

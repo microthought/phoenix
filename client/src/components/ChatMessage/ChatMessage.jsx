@@ -2,6 +2,7 @@ import React from 'react';
 import { Message } from 'semantic-ui-react';
 import classNames from 'classnames';
 
+
 const ChatMessage = (props) => {
 
   var classes = classNames({
@@ -9,7 +10,8 @@ const ChatMessage = (props) => {
     partner: !props.isUser,
     user: props.isUser
   });
-  
+
+
   return (
   <Message
   compact

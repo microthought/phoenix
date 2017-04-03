@@ -5,6 +5,7 @@ npm-debug.log
 # Build Process
 bundle.js
 main.css
+main.css.map
 .sass-cache/
 
 # OS X
