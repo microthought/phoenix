@@ -12,11 +12,25 @@
 
   .contact-name {
     flex: 1 1 auto;
-    vertical-align: center;
+    padding-left: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 1.3em;
+    color: black;
+    font-weight: bold;
   }
 
   .buttons {
     display: flex;
     flex: 0 1 auto;
+    margin: auto 0 auto 0;
+    color: darkgray;
+
+  
   }
+  .icon:hover{
+      cursor: pointer;
+      color: black;
+  }
+
 }

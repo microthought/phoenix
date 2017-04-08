@@ -10,17 +10,17 @@ const ActiveChatHeader = (props) => {
         src={props.avatar}
       />
       <div className="contact-name">
-        NAME!!
+        <p>Leidi Uribe</p>
       </div>
       <div className="buttons">
         <Icon 
-        name="microphone"
+        name="tasks"
         size="big" />
         <Icon 
-        name="microphone"
+        name="idea"
         size="big" />
         <Icon 
-        name="microphone"
+        name="options"
         size="big" />
         
       </div>
