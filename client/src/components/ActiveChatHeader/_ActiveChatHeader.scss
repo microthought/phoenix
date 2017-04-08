@@ -2,4 +2,21 @@
   width: 100%;
   background-color: rgb(238, 238, 238);
   height: 70px;
+  padding: 5px;
+  display:flex;
+  flex-direction: row;
+  .image {
+    height: 100%;
+    flex: 0 1 auto;
+  }
+
+  .contact-name {
+    flex: 1 1 auto;
+    vertical-align: center;
+  }
+
+  .buttons {
+    display: flex;
+    flex: 0 1 auto;
+  }
 }

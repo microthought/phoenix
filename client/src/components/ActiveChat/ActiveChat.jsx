@@ -5,7 +5,7 @@ import ChatInput from '../ChatInput/ChatInput.jsx';
 import ChatHistory from '../ChatHistory/ChatHistory.jsx';
 import ChatMessage from '../ChatMessage/ChatMessage.jsx';
 
-
+ const prettyAvatar = 'https://react.semantic-ui.com/assets/images/avatar/small/lindsay.png'
 
 class ActiveChat extends React.Component {
   constructor(props){
@@ -15,7 +15,8 @@ class ActiveChat extends React.Component {
   render() {
     return(
     <div className="ActiveChat">
-      <ActiveChatHeader />
+      <ActiveChatHeader 
+        avatar={prettyAvatar}/>
       <ChatHistory 
         messages={this.props.messages}/>
       <ChatInput />
