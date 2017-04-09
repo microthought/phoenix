@@ -5,7 +5,6 @@ import LeftMenu from '../LeftMenu/LeftMenu.jsx';
 import ActiveChat from '../ActiveChat/ActiveChat.jsx';
 
 
-
 class App extends React.Component {
   constructor (props){
     super(props);

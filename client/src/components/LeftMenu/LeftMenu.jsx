@@ -5,7 +5,7 @@ import { Button } from 'semantic-ui-react';
 import RecentConversations from '../RecentConversations/RecentConversations.jsx';
 
 
-
+const me = 'https://avatars2.githubusercontent.com/u/18074417?v=3&s=460';
 
 class LeftMenu extends React.Component {
   constructor(props){
@@ -15,7 +15,8 @@ class LeftMenu extends React.Component {
   render() {
     return(
     <div className="LeftMenu">
-      <MainMenu />
+      <MainMenu 
+        avatar={me}/>
       <ConvoSearch />
       <RecentConversations />
       <Button
