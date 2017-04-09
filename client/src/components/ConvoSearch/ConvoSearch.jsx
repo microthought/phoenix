@@ -8,7 +8,7 @@ const ConvoSearch = () => {
     <div className="convo-search">
 
       <Icon 
-        name="microphone"
+        name="search"
         size="big" />
       <Input
         placeholder="pretend to search here"/>

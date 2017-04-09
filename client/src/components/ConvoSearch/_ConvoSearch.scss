@@ -13,6 +13,15 @@
     width: 80%;
   }
 
+  .icon{
+    color: darkgrey;
+    cursor: pointer;
 
+    &:hover{
+      color: black;
+    }
+  }
+
+ 
 
 }
